@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# Virtual environments
+*.venv
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Base vectorial local (NumPy, por sesión)
+vector_store/
+*.npz
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
